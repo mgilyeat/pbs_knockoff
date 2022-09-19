@@ -18,92 +18,244 @@
 <body>
     <nav class="navbar">
         <div class="container">
-            <div class="logo">PaperBack Swap Logo</div>
             <div class="navigate">
-                <div class="nav1">
-                    <ul>
-                        <li>
-                            <a href="#">What's New</a>
-                        </li>
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Logout</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="info-bar">Member $avings: $46,702,520.88 | Books Available: 984,699 | Members Online: 339
-                </div>
-                <div class="search-bar">Swap Used Books - Buy New Books at Great Prices!
-                     <!-- (input box & search button) -->
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="logo"><img src="pbslogo.png"></div>
+                    </div>
+                    <div class="col">
+                        <div class="nav1">
+                            <ul>
+                                <li>
+                                    <a href="#">What's New</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="info-bar">Member $avings: $46,702,520.88 | Books Available: 984,699 | Members
+                            Online:
+                            339
+                        </div>
+                        <div class="search-bar">Swap Used Books - Buy New Books at Great Prices!
+                            <input type="text" size="25" value="Title, Author, ISBN or Keyword..." style="color:#CCC;">
+                            <input class="button" type="button" value="Search">
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <ul class="nav2">
+
+                                    <!-- Box 1 -->
+                                    <li>
+                                        <a href="#">How to Swap Books</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sign Up</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Search v</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Login</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Community v</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Help Center v</a>
+                                    </li>
+                                    </li>
+                                    <li>
+                                        <a href="#">Kiosk v</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Box 2 -->
+                            <div class="col-2">
+                                <ul>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="fb.jpg"></a>
+                                    </li>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="tw.jpg"></a>
+                                    </li>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="aws.jpg"></a>
+                                    </li>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Box 3 -->
+                            <div class="col-2">
+                                <ul class="help">
+                                    <li>
+                                        <a href="#">Need help?</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <ul class="nav2">
-                    
-                    <!-- Box 1 -->
-                    <li>
-                        <a href="#">How to Swap Books</a>
-                    </li>
-                    <li>
-                        <a href="#">Sign Up</a>
-                    </li>
-                    <li>
-                        <a href="#">Search v</a>
-                    </li>
-                    <li>
-                        <a href="#">Login</a>
-                    </li>
-                    <li>
-                        <a href="#">Community v</a>
-                    </li>
-                    <li>
-                        <a href="#">Help Center v</a>
-                    </li>
-                    </li>
-                    <li>
-                        <a href="#">Kiosk v</a>
-                    </li>
-
-                    <!-- Box 2 -->
-                    </li>
-                    <li>
-                        <a href="#">Facebook</a>
-                    </li>
-                    </li>
-                    <li>
-                        <a href="#">Twitter</a>
-                    </li>
-                    </li>
-                    <li>
-                        <a href="#">Amazon</a>
-                    </li>
-                    </li>
-                    <!-- Box 3 -->
-                    <li>
-                        <a href="#">Need help?</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-11">
+                <div class="login">
+                    <h2>Member Login</h2>
+                    <div class="loginbox">
+                        <table width="100%" align="center" cellpadding="2" cellspacing="0" class="grey_container">
+                            <tr>
+                                <td width="40%">
+                                    <div align="right">
+                                        <strong>Email / Nickname:</strong>
+                                    </div>
+                                </td>
+                                <td width="60%">
+                                    <div align="left">
+                                        <input name="username" type="text" id="username" maxlength="255" />
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div align="right">
+                                        <strong>Password:</strong>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div align="left">
+                                        <input name="password" type="password" id="password" size="20" maxlength="20" />
 
-    <div class="login">Member Login
-        <div class="loginbox"> 
-            Email / Nickname: <br />
-            Password:<br />
-                (login button)<br />
-                  
-            Remember Me<br />
-             
-            Lost Your Password?<br />
-            Create an account<br />
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <div>
+                                        <input name="reme" type="checkbox" id="reme" value="1" /> <label
+                                            for="reme">Remember
+                                            Me</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div align="center">
+                                        <input type="submit" class="button" value="Log in" />
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div align="center">
+                                        <a href="/members/lost_password.php" class="table_1_link"><strong>Lost Your
+                                                Password?</strong></a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div align="center">
+                                        <a href="/register/index.php" class="table_1_link"><strong>Create an
+                                                account</strong></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
-            NOTE: Your browser must have cookies enabled in order to log into and use this site. 
+        </div>
+
     </div>
 
     <footer>
-        
+        <container class="div">
+            <div class="row">
+                <div class="col-md-2 col-sm-3 col-xs-12 footer_col">
+                    <a href="/members/index.php" rel="nofollow"><strong>My Account</strong></a><br />
+                    <a href="/members/book_add.php" rel="nofollow">Post Books</a><br />
+                    <a href="/members/my_lists/wish_list.php" rel="nofollow">Wish List</a><br />
+                    <a href="/members/bookshelf.php" rel="nofollow">Bookshelf</a><br />
+                    <a href="/members/tools.php" rel="nofollow">Member Tools</a><br />
+                    <a href="/misc/under_the_hood/index.php" rel="nofollow">Under the Hood</a><br />
+                    <a href="/members/club_communications/newsletter_archive.php" rel="nofollow">Newsletter
+                        Archive</a><br />
+                    <br />
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-12 footer_col">
+                    <a href="/book/search.php"><strong>Search for a Book</strong></a><br />
+                    <a href="/index.php">Browse My Favorite Genres</a><br />
+                    <a href="/book/advanced_search.php">Advanced Book Search</a><br />
+                    <a href="/book/browser.php">Book Browser</a><br />
+                    <a href="/tags/cloud.php">Club Tag Cloud</a><br />
+                    <a href="/book/popular_list.php">NYT Best Sellers</a><br />
+                    <a target="_blank" aria-label="Opens a new tab to Amazon Best Sellers (Commission may be earned)"
+                        title="(Commission may be earned)"
+                        href="https://www.amazon.com/best-sellers-books-Amazon/zgbs/books?ref_=assoc_tag_ch_amzn1.curatedcontent.ATVPDKIKX0DER.1c5bea20-695f-4737-aea6-4f5e9777f95c&_encoding=UTF8&linkCode=ib1&tag=paperbackswap-20&linkId=b113a3929264f3d222557183ccc5dbf1">Amazon
+                        Best Sellers</a><img src="" width="1" height="1" border="0" alt="" role="none"
+                        style="border:none !important; margin:0px !important;" /><br />
+                    <a href="/Newbery-Medal-Award/award/1/?g=Children's+Books">Newbery Medal Winners</a><br />
+                    <a href="/Pulitzer-Prize/award/2/?g=History">Pulitzer Prize Winners</a><br />
+                    <a href="/book/posted_today.php">Books Posted Today</a><br />
+                    <a href="/book/awards.php">Award Winning Books</a><br />
+                    <a href="/mobile/index.php">Mobile / Smart Phone</a><br />
+                    <br />
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-12 footer_col">
+                    <a href="/help/help_index.php"><strong>Help Center</strong></a><br />
+                    <a href="/help/how_to_swap_books.php">How to Swap Books</a><br />
+                    <a href="/help/help_index.php?atl=t">Ask the Librarian</a><br />
+                    <a href="/help/live_help.php" rel="nofollow">Live Help</a><br />
+                    <a href="/help/browser_test.php">Browser Test</a><br />
+                    <a href="/about/features.php">Feature List</a><br />
+                    <a href="/amazon_info.php">Amazon Search</a><br />
+                    <br />
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-12 footer_col">
+                    <a href="/community/index.php"><strong>Community</strong></a><br />
+                    <a href="/invite/index.php">Invite Friends</a><br />
+                    <a href="/developers/index.php">Widgets &amp; APIs</a><br />
+                    <a href="/rss/index.php">Feeds RSS/XML</a><br />
+                    <a href="/box_o_books/index.php">Box-O-Books</a><br />
+                    <a href="/forum/index.php">Discussion Forums</a><br />
+                    <a href="http://blog.paperbackswap.com">Blog</a><br />
+                    <a href="https://www.facebook.com/PaperBackSwap" target="_blank" aria-label="Opens a new tab"
+                        rel="nofollow">Facebook</a><br />
+                    <a href="https://www.twitter.com/paperbackswap/" target="_blank" aria-label="Opens a new tab"
+                        rel="nofollow">Twitter</a><br />
+                    <br />
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-12 footer_col">
+                    <strong>Company</strong><br />
+                    <a href="/press_media/index.php">Press &amp; Media</a><br />
+                    <a href="/pulse/index.php">Pulse of PBS</a><br />
+                    <a href="/contact_us/index.php">Contact Us</a><br />
+                    <a href="/careers/index.php">Careers</a><br />
+                    <a href="/help/privacy_policy.php">Privacy &amp; Security</a><br />
+                    <br />
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-12 footer_col">
+                    <strong>Sister Sites</strong><br />
+                    <a href="https://www.swapadvd.com/">SwapaDVD.com</a><br />
+                    <a href="https://www.swapacd.com/">SwapaCD.com</a><br />
+                </div>
+            </div>
+        </container>
     </footer>
 </body>
 
